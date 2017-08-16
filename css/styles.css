@@ -117,12 +117,12 @@
             top: 6px;
             left: 6px;
             background-image: url('../assets/Housensei%20header.png');
-            background-position: center right;
+            background-position: bottom center;
             min-width: 945px;
             background-size: cover;
             background-repeat: no-repeat;
             background-color: rgba(65, 73, 96, 1);
-            background-attachment: fixed;
+            background-attachment: scroll;
             border-radius: 0px 0px 0px 0px;
             border-color: #000000;
         }
@@ -146,6 +146,8 @@
             top: 15px;
             left: 654px;
             border-color: #000000;
+            background-attachment: fixed;
+            background-size: contain;
         }
         
         @media only screen and (max-width: 480px),
