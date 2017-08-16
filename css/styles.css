@@ -119,7 +119,7 @@
             background-image: url('../assets/Housensei%20header.png');
             background-position: center right;
             min-width: 945px;
-            background-size: cover;
+            background-size: contain;
             background-repeat: no-repeat;
             background-color: rgba(65, 73, 96, 1);
             background-attachment: scroll;
@@ -133,14 +133,14 @@
                 top: 0px;
                 left: 0px;
                 background-size: contain;
-                background-position: center left;
+                background-position: top right;
                 background-repeat: no-repeat;
                 background-attachment: scroll;
             }
         }
         
         .silex-id-1484951384736-0 {
-            min-height: 690px;
+            min-height: 650px;
             background-color: transparent;
             width: 945px;
             top: 15px;
@@ -6306,6 +6306,13 @@
             left: 9px;
         }
         
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1499893279857-0 {
+                width: 400px;
+            }
+        }
+        
         .silex-id-1499892801503-4 {
             top: 200px;
             left: NaNpx;
@@ -6359,6 +6366,13 @@
             background-color: transparent;
             top: 8px;
             left: 8px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1499893514342-1 {
+                width: 400px;
+            }
         }
         
         .silex-id-1499892825903-9 {
