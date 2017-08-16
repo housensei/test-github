@@ -117,7 +117,7 @@
             top: 6px;
             left: 6px;
             background-image: url('../assets/Housensei%20header.png');
-            background-position: bottom center;
+            background-position: center right;
             min-width: 945px;
             background-size: cover;
             background-repeat: no-repeat;
@@ -147,7 +147,6 @@
             left: 654px;
             border-color: #000000;
             background-attachment: fixed;
-            background-size: contain;
         }
         
         @media only screen and (max-width: 480px),
@@ -3591,6 +3590,7 @@
                 left: 212px;
                 width: 70px;
                 min-height: 27px;
+                border-color: #000000;
             }
         }
         
@@ -4984,7 +4984,7 @@
             width: 616px;
             min-height: 387px;
             top: 0px;
-            left: 3px;
+            left: 18px;
         }
         
         .silex-id-1501970481728-1 {
@@ -5019,42 +5019,49 @@
             width: 20px;
             min-height: 20px;
             top: 407px;
-            left: 29px;
+            left: 46px;
         }
         
         .silex-id-1499871025301-7 {
             width: 20px;
             min-height: 20px;
             top: 369px;
-            left: 29px;
+            left: 46px;
         }
         
         .silex-id-1499871020227-6 {
             width: 20px;
             min-height: 20px;
             top: 331px;
-            left: 29px;
+            left: 46px;
         }
         
         .silex-id-1499871012956-5 {
             width: 20px;
             min-height: 20px;
             top: 294px;
-            left: 29px;
+            left: 46px;
         }
         
         .silex-id-1499870932145-4 {
             width: 20px;
             min-height: 20px;
             top: 258px;
-            left: 29px;
+            left: 46px;
         }
         
         .silex-id-1499867546412-12 {
             width: 616px;
             min-height: 387px;
             top: 0px;
-            left: 0px;
+            left: 18px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1499867546412-12 {
+                left: 18px;
+            }
         }
         
         .silex-id-1501970239674-0 {
@@ -5104,7 +5111,7 @@
             width: 616px;
             min-height: 246px;
             top: 92px;
-            left: 0px;
+            left: 18px;
         }
         
         .silex-id-1501971311839-2 {
@@ -5169,7 +5176,7 @@
             height: 267px;
             background-color: transparent;
             top: 8px;
-            left: 14px;
+            left: 18px;
             min-height: -66px;
             border-color: #000000;
         }
